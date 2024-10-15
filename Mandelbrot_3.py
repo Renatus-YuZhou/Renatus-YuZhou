@@ -57,7 +57,6 @@ class Mandelbrot:
         plt.ylabel("Im(c)",fontsize=10)
         plt.savefig("Mandelbrot_3.pdf", format="pdf", bbox_inches='tight')
 
-# 实例化并绘制Mandelbrot集
 mandelbrot = Mandelbrot((800, 800), (-2.0, 1.0, -1.5, 1.5), 200)
 mandelbrot.GenerateSet()
 mandelbrot.plot()
